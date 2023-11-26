@@ -10,8 +10,24 @@ form{
    width: 100%;
    height: 500px;
 }
-@media screen and (max-width: 720px){
-    .img-juego{
-        height: 200px;
-    }
+
+.imagenJuego{
+    position: relative;
+    top: 0px;
+}
+.imagenJuego img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    filter: brightness(30%);
+}
+.tituloJuego{
+    position: absolute;
+  top: 50px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  
+  color: #f0f0f1;
 }
